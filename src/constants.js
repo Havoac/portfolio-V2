@@ -32,15 +32,15 @@ import netlifyLogo from "./assets/tech_logo/netlify.png";
 import vercelLogo from "./assets/tech_logo/vercel.png";
 import postgreLogo from "./assets/tech_logo/postgre.png";
 import csharpLogo from "./assets/tech_logo/csharp.png";
-import hibernateLogo from "./assets/tech_logo/hibernate.png"
-import gitbashLogo from "./assets/tech_logo/gitbash.png"
-import eclipseLogo from "./assets/tech_logo/eclipse.png"
-import sqlWorkBenchLogo from "./assets/tech_logo/sqlworkbench.png"
+import hibernateLogo from "./assets/tech_logo/hibernate.png";
+import gitbashLogo from "./assets/tech_logo/gitbash.png";
+import eclipseLogo from "./assets/tech_logo/eclipse.png";
+import sqlWorkBenchLogo from "./assets/tech_logo/sqlworkbench.png";
 
 // Experience Section Logo's
-import webverseLogo from "./assets/company_logo/webverse_logo.png";
-import agcLogo from "./assets/company_logo/agc_logo.png";
-import newtonschoolLogo from "./assets/company_logo/newtonschool_logo.png";
+import arriseLogo from "./assets/company_logo/arrise.png"
+import curiousJrLogo from "./assets/company_logo/curiousJr.png";
+import highRadiusLogo from "./assets/company_logo/highRadius.png";
 
 // Education Section Logo's
 import glaLogo from "./assets/education_logo/gla_logo.png";
@@ -111,49 +111,37 @@ export const SkillsInfo = [
 export const experiences = [
   {
     id: 0,
-    img: webverseLogo,
-    role: "Fullstack Developer",
-    company: "Webverse Digital",
-    date: "April 2024 - Present",
-    desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
+    img: arriseLogo,
+    role: "Associate Developer",
+    company: "Arrise Solutions Powering Pragmatic Play",
+    date: "July 2023 - Present",
+    desc: "I’ve built and optimized Spring Boot microservices, reducing latency by 25% and improving performance by 30%. I integrated Spring Security with OAuth2 and JWT for secure authentication and led database optimizations using Spring Data JPA and Hibernate. I collaborate closely across teams to implement efficient, scalable solutions. My contributions have directly impacted system performance, data security, and development speed across key services.",
     skills: [
-      "HTML",
-      "CSS",
       "JavaScript",
       "React JS",
-      "TypeScript",
-      "Node JS",
-      "Tailwind CSS",
-      "MongoDb",
-      "Redux",
-      " Next Js",
+      "Spring boot",
+      "Spring Security",
+      "Spring MVC",
+      "Hibernate",
     ],
   },
   {
     id: 1,
-    img: agcLogo,
-    role: "Fullstack Engineer",
-    company: "Agumentik Group of Companies",
-    date: "July 2023 - March 2024",
-    desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
-    skills: [
-      "ReactJS",
-      "Redux",
-      "JavaScript",
-      "Tailwind CSS",
-      "HTML",
-      "CSS",
-      "SQL",
-    ],
+    img: curiousJrLogo,
+    role: "Software Developer Intern",
+    company: "CuriousJr",
+    date: "April 2022 - January 2023",
+    desc: "Led the development of 20+ interactive games, 3+ courses, and 12+ competition projects for the CuriousJr app. Mentored a junior intern, improving their coding proficiency by 50% and ensuring timely delivery. Contributed across the frontend stack using JavaScript, HTML, CSS, and jQuery to build engaging, educational experiences tailored for mobile users.",
+    skills: ["JavaScript", "HTML", "CSS", "Jquery"],
   },
   {
     id: 2,
-    img: newtonschoolLogo,
-    role: "Frontend Intern",
-    company: "Newton School",
-    date: "September 2021 - August 2022",
-    desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
-    skills: ["HTML", "CSS", "Javascript", "Bootstrap", "Figma", "Material UI"],
+    img: highRadiusLogo,
+    role: "Full stack Developer Intern",
+    company: "High Radius",
+    date: "January 2022 - April 2022",
+    desc: "Developed a Servlet within a web server to connect with SQLyog and extract imported data. Processed and sent data to a Web API, created functionality-specific files, and handled data format transformations. Worked with Java, SQLyog, and Eclipse throughout the development process.",
+    skills: ["HTML", "CSS", "Javascript", "Material UI", "Java", "SQL", "JDBC"],
   },
 ];
 
