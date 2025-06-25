@@ -38,7 +38,7 @@ import eclipseLogo from "./assets/tech_logo/eclipse.png";
 import sqlWorkBenchLogo from "./assets/tech_logo/sqlworkbench.png";
 
 // Experience Section Logo's
-import arriseLogo from "./assets/company_logo/arrise.png"
+import arriseLogo from "./assets/company_logo/arrise.png";
 import curiousJrLogo from "./assets/company_logo/curiousJr.png";
 import highRadiusLogo from "./assets/company_logo/highRadius.png";
 
@@ -49,6 +49,9 @@ import vpsLogo from "./assets/education_logo/vps_logo.png";
 
 // Project Section Logo's
 import githubdetLogo from "./assets/work_logo/github_det.png";
+import scmLogo from "./assets/work_logo/scm.png";
+import imdbLogo from "./assets/work_logo/imdb.png";
+import invoiceLogo from "./assets/work_logo/invoiceProject.png";
 import csprepLogo from "./assets/work_logo/cs_prep.png";
 import movierecLogo from "./assets/work_logo/movie_rec.png";
 import taskremLogo from "./assets/work_logo/task_rem.png";
@@ -187,101 +190,60 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "GitHub Profile Detective",
+    title: "Smart Contact Manager",
     description:
-      "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-    image: githubdetLogo,
-    tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-    github:
-      "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-    webapp: "https://githubprofiledetective.netlify.app/",
-  },
-  {
-    id: 1,
-    title: "CS Prep",
-    description:
-      "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-    image: csprepLogo,
+      "Built a full-featured contact management system that allows users to securely manage and organize their contacts. Integrated Spring Security for authentication and access control, and used Spring Data JPA for efficient data handling. The application features a modern interface with user-friendly notifications powered by SweetAlert2, focusing on both functionality and a smooth user experience.",
+    image: scmLogo,
     tags: [
-      "React JS",
-      "Node.js",
-      "MongoDB",
-      "Express",
+      "Java",
+      "Spring Boot",
+      "Spring MVC",
+      "Spring Security",
+      "Spring Data JPA",
+      "Hibernate",
+      "MySQL",
+      "Thymeleaf",
       "HTML",
       "CSS",
       "JavaScript",
+      "SweetAlert2",
+      "Git",
+      "Maven",
     ],
-    github: "https://github.com/codingmastr/CSPrep",
-    webapp: "https://csprep.netlify.app/",
+    github: "https://github.com/Havoac/Smart-Contact-Manager/tree/master",
+    webapp: null,
+  },
+  {
+    id: 1,
+    title: "Imdb Clone",
+    description:
+      "A feature-rich clone of IMDb built using HTML, CSS, and JavaScript. The app allows users to browse movies, view detailed information, and explore popular, top-rated, and upcoming films using the TMDB API. Designed with a modern UI and responsive layout for a smooth user experience across devices.",
+    image: imdbLogo,
+    tags: ["React JS", "HTML", "CSS", "JavaScript", "Fetch API", "REST APIs"],
+    github: "https://github.com/Havoac/Imdb-Clone",
+    webapp: "https://imdb-clone-havoc.netlify.app/",
   },
   {
     id: 2,
-    title: "Movie Recommendation App",
+    title: "Invoice Management Project",
     description:
-      "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-    image: movierecLogo,
-    tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/codingmastr/Movie-Recommendation-App",
-    webapp: "https://movie-recommendation-app-jet.vercel.app/",
-  },
-  {
-    id: 3,
-    title: "Email Validator NPM Package",
-    description:
-      "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-    image: npmLogo,
-    tags: ["React JS", "Node.js", "NPM", "Validation"],
-    github: "https://github.com/codingmastr/cmtk-email-validator",
-    webapp: "https://www.npmjs.com/package/cmtk-email-validator",
-  },
-  {
-    id: 4,
-    title: "Task Reminder Chrome Extension Tool",
-    description:
-      "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-    image: taskremLogo,
-    tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-    github: "https://github.com/codingmastr/Task-Reminder-Tool",
-    webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-  },
-  {
-    id: 5,
-    title: "Webverse Digital",
-    description:
-      "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-    image: webverLogo,
-    tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-    github: "https://github.com/codingmastr/Webverse-Digital",
-    webapp: "https://webversedigital.com/",
-  },
-  {
-    id: 6,
-    title: "Coding Master",
-    description:
-      "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-    image: cmLogo,
-    tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-    github: "https://codingmasterweb.in/",
-    webapp: "https://codingmasterweb.in/",
-  },
-  {
-    id: 7,
-    title: "Image Search App",
-    description:
-      "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-    image: imagesearchLogo,
-    tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-    github: "https://github.com/codingmastr/Image-Search-App",
-    webapp: "https://imagsearch.netlify.app/",
-  },
-  {
-    id: 8,
-    title: "Image Background Remover",
-    description:
-      "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-    image: removebgLogo,
-    tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-    github: "https://github.com/codingmastr/Image-Background-Remover",
-    webapp: "https://removeyourbg.netlify.app/",
+      "Built a full-stack Movie and Invoice Management application with dynamic dashboards. Implemented CRUD operations for movies using Spring Boot with filtered search and pagination support. Designed a B2B Fintech Receivables Dashboard using React.js and Material UI to visualize invoice data interactively.",
+    image: invoiceLogo,
+    tags: [
+      "Java",
+      "Spring Boot",
+      "REST API",
+      "MySQL",
+      "React JS",
+      "Material UI",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Pagination",
+      "CRUD",
+      "Git",
+    ],
+    github: "https://github.com/Havoac/Invoice-Management-Project",
+    webapp: null,
   },
 ];
