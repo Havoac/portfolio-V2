@@ -185,13 +185,13 @@ export const projects = [
   },
   {
     id: 1,
-    title: "Imdb Clone",
+    title: "Movie Scope",
     description:
-      "A feature-rich clone of IMDb built using HTML, CSS, and JavaScript. The app allows users to browse movies, view detailed information, and explore popular, top-rated, and upcoming films using the TMDB API. Designed with a modern UI and responsive layout for a smooth user experience across devices.",
+      "A feature-rich movie browsing web app built with ReactJS in a sleeke dark theme. The app allows users to browse movies, view detailed information, and explore popular, top-rated, and upcoming films using the movieScope API. Designed with a modern UI and responsive layout for a smooth user experience across devices.",
     image: imdbLogo,
     tags: ["React JS", "HTML", "CSS", "JavaScript", "Fetch API", "REST APIs"],
-    github: "https://github.com/Havoac/Imdb-Clone",
-    webapp: "https://imdb-clone-havoc.netlify.app/",
+    github: "https://github.com/Havoac/MovieScope",
+    webapp: "https://movies-scope.netlify.app/",
   },
   {
     id: 2,
