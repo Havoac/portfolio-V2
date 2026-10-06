@@ -10,6 +10,8 @@ import bootstrapLogo from "./assets/tech_logo/bootstrap.png";
 import springbootLogo from "./assets/tech_logo/springboot.png";
 import mysqlLogo from "./assets/tech_logo/mysql.png";
 import firebaseLogo from "./assets/tech_logo/firebase.png";
+import cloudinaryLogo from "./assets/tech_logo/cloudinary.png";
+import springsecurityLogo from "./assets/tech_logo/springsecurity.png";
 import cLogo from "./assets/tech_logo/c.png";
 import cppLogo from "./assets/tech_logo/cpp.png";
 import javaLogo from "./assets/tech_logo/java.png";
@@ -21,9 +23,14 @@ import netlifyLogo from "./assets/tech_logo/netlify.png";
 import postgreLogo from "./assets/tech_logo/postgre.png";
 import csharpLogo from "./assets/tech_logo/csharp.png";
 import hibernateLogo from "./assets/tech_logo/hibernate.png";
+import restapiLogo from "./assets/tech_logo/restapi.png";
+import microservicesLogo from "./assets/tech_logo/microservices.png";
+import jwtLogo from "./assets/tech_logo/jwt.png";
+import mavenLogo from "./assets/tech_logo/maven.png";
 import gitbashLogo from "./assets/tech_logo/gitbash.png";
 import eclipseLogo from "./assets/tech_logo/eclipse.png";
 import sqlWorkBenchLogo from "./assets/tech_logo/sqlworkbench.png";
+import jenkinsLogo from "./assets/tech_logo/jenkins.png";
 
 // Experience Section Logo's
 import arriseLogo from "./assets/company_logo/arrise.png";
@@ -42,69 +49,119 @@ import invoiceLogo from "./assets/work_logo/invoiceProject.png";
 
 export const SkillsInfo = [
   {
-    title: "Frontend",
-    skills: [
-      { name: "HTML", logo: htmlLogo },
-      { name: "CSS", logo: cssLogo },
-      { name: "JavaScript", logo: javascriptLogo },
-      { name: "React JS", logo: reactjsLogo },
-      { name: "Redux", logo: reduxLogo },
-      { name: "Tailwind CSS", logo: tailwindcssLogo },
-      { name: "Material UI", logo: materialuiLogo },
-      { name: "Bootstrap", logo: bootstrapLogo },
-    ],
-  },
-  {
     title: "Backend",
     skills: [
       { name: "Springboot", logo: springbootLogo },
-      { name: "MySQL", logo: mysqlLogo },
-      { name: "Firebase", logo: firebaseLogo },
-      { name: "PostgreSQL", logo: postgreLogo },
+      { name: "Spring Security", logo: springsecurityLogo },
       { name: "Hibernate", logo: hibernateLogo },
+      { name: "Rest API", logo: restapiLogo },
+      { name: "Microservices", logo: microservicesLogo },
+      { name: "JWT", logo: jwtLogo },
     ],
   },
   {
     title: "Languages",
     skills: [
-      { name: "C", logo: cLogo },
+      { name: "Java", logo: javaLogo },
       { name: "C++", logo: cppLogo },
       { name: "C#", logo: csharpLogo },
-      { name: "Java", logo: javaLogo },
-      { name: "C-Sharp", logo: csharpLogo },
       { name: "JavaScript", logo: javascriptLogo },
     ],
   },
   {
-    title: "Tools",
+    title: "Frontend",
     skills: [
+      { name: "React JS", logo: reactjsLogo },
+      { name: "Redux", logo: reduxLogo },
+      { name: "HTML", logo: htmlLogo },
+      { name: "CSS", logo: cssLogo },
+      { name: "Tailwind CSS", logo: tailwindcssLogo },
+    ],
+  },
+  {
+    title: "Database & Tools",
+    skills: [
+      { name: "MySQL", logo: sqlWorkBenchLogo },
+      { name: "Firebase", logo: firebaseLogo },
+      { name: "Cloudinary", logo: cloudinaryLogo },
       { name: "Git", logo: gitLogo },
       { name: "GitHub", logo: githubLogo },
       { name: "VS Code", logo: vscodeLogo },
       { name: "Postman", logo: postmanLogo },
-      { name: "Netlify", logo: netlifyLogo },
-      { name: "Gitbash", logo: gitbashLogo },
-      { name: "Eclipse", logo: eclipseLogo },
-      { name: "MySQL", logo: sqlWorkBenchLogo },
+      { name: "Jenkins", logo: jenkinsLogo },
+      { name: "Maven", logo: mavenLogo },
     ],
   },
 ];
 
 export const experiences = [
+  // {
+  //   id: 0,
+  //   img: arriseLogo,
+  //   role: "SDE-1",
+  //   company: "Arrise Solutions Powering Pragmatic Play",
+  //   date: "July 2023 - Present",
+  //   desc: "I’ve built and optimized Spring Boot microservices, reducing latency by 25% and improving performance by 30%. I integrated Spring Security with OAuth2 and JWT for secure authentication and led database optimizations using Spring Data JPA and Hibernate. I collaborate closely across teams to implement efficient, scalable solutions. My contributions have directly impacted system performance, data security, and development speed across key services.",
+  //   skills: [
+  //     "JavaScript",
+  //     "React JS",
+  //     "Spring boot",
+  //     "Spring Security",
+  //     "Spring MVC",
+  //     "Hibernate",
+  //   ],
+  // },
   {
     id: 0,
     img: arriseLogo,
-    role: "Associate Developer",
+    role: "SDE-1",
     company: "Arrise Solutions Powering Pragmatic Play",
-    date: "July 2023 - Present",
-    desc: "I’ve built and optimized Spring Boot microservices, reducing latency by 25% and improving performance by 30%. I integrated Spring Security with OAuth2 and JWT for secure authentication and led database optimizations using Spring Data JPA and Hibernate. I collaborate closely across teams to implement efficient, scalable solutions. My contributions have directly impacted system performance, data security, and development speed across key services.",
+    date: "January 2026 - Present",
+    desc: "Backend engineer working on high-volume Spring Boot microservices for a real-money gaming platform. Improved throughput by 30% and reduced latency by 25% through service and database optimizations. Built secure authentication and authorization using Spring Security, OAuth2, and JWT, and designed backend features end to end.",
     skills: [
-      "JavaScript",
-      "React JS",
-      "Spring boot",
+      "Java",
+      "Spring Boot",
       "Spring Security",
-      "Spring MVC",
+      "Spring Data JPA",
       "Hibernate",
+      "MySQL",
+      "Microservices",
+      "OAuth2",
+      "JWT",
+    ],
+  },
+
+  {
+    id: 1,
+    img: arriseLogo,
+    role: "Associate Software Developer",
+    company: "Arrise Solutions Powering Pragmatic Play",
+    date: "July 2023 - December 2025",
+    desc: "Worked across backend services and game systems, building Spring Boot REST APIs and optimizing database queries. Reduced data retrieval time by 20% through JPA/Hibernate query optimization and indexing. Also developed game features using C#, Unity, and JavaScript.",
+    skills: [
+      "Java",
+      "Spring Boot",
+      "Spring Data JPA",
+      "Hibernate",
+      "MySQL",
+      "C#",
+      "Unity",
+      "JavaScript",
+      "Jenkins",
+    ],
+  },
+
+  {
+    id: 2,
+    img: arriseLogo,
+    role: "Trainee Game Developer",
+    company: "Arrise Solutions Powering Pragmatic Play",
+    date: "July 2023 - September 2023",
+    desc: "Built slot-game prototypes in C# and Unity, validated mathematical outputs through simulations, and ported game logic to JavaScript for production.",
+    skills: [
+      "C#",
+      "Unity",
+      "JavaScript",
     ],
   },
   {
@@ -180,7 +237,7 @@ export const projects = [
       "Git",
       "Maven",
     ],
-    github: "https://github.com/Havoac/Smart-Contact-Manager/tree/master",
+    github: "https://github.com/Havoac/Smart-Contact-Manager/tree/V2.0",
     webapp: null,
   },
   {
