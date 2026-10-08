@@ -95,22 +95,6 @@ export const SkillsInfo = [
 ];
 
 export const experiences = [
-  // {
-  //   id: 0,
-  //   img: arriseLogo,
-  //   role: "SDE-1",
-  //   company: "Arrise Solutions Powering Pragmatic Play",
-  //   date: "July 2023 - Present",
-  //   desc: "I’ve built and optimized Spring Boot microservices, reducing latency by 25% and improving performance by 30%. I integrated Spring Security with OAuth2 and JWT for secure authentication and led database optimizations using Spring Data JPA and Hibernate. I collaborate closely across teams to implement efficient, scalable solutions. My contributions have directly impacted system performance, data security, and development speed across key services.",
-  //   skills: [
-  //     "JavaScript",
-  //     "React JS",
-  //     "Spring boot",
-  //     "Spring Security",
-  //     "Spring MVC",
-  //     "Hibernate",
-  //   ],
-  // },
   {
     id: 0,
     img: arriseLogo,
@@ -136,7 +120,7 @@ export const experiences = [
     img: arriseLogo,
     role: "Associate Software Developer",
     company: "Arrise Solutions Powering Pragmatic Play",
-    date: "July 2023 - December 2025",
+    date: "September 2023 - December 2025",
     desc: "Worked across backend services and game systems, building Spring Boot REST APIs and optimizing database queries. Reduced data retrieval time by 20% through JPA/Hibernate query optimization and indexing. Also developed game features using C#, Unity, and JavaScript.",
     skills: [
       "Java",
